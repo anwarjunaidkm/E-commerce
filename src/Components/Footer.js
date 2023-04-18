@@ -3,8 +3,6 @@ import {BsArrowRight} from 'react-icons/bs'
 
 function Footer() {
   return (
-    <div className="  w-full  bg-[#ffffff]  text-gray-300  text-[13px] font-poppins">
-      <div className="max-w-[1200px] mx-auto  bg-[red]  py-8 flex flex-col  w-full ">
         <footer class="bg-white dark:bg-gray-900">
           <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
