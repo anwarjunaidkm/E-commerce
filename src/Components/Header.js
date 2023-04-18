@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>sdss</div>
+    <div>header</div>
   )
 }
 
