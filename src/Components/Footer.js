@@ -4,14 +4,14 @@ import {BsArrowRight} from 'react-icons/bs'
 function Footer() {
   return (
     <div className="  w-full  bg-[#fffff]  text-gray-300  text-[13px] font-poppins">
-      <div className="max-w-[1200px] mx-auto  bg-[green]  py-8 flex flex-col  w-full ">
-        <footer class="bg-white dark:bg-gray-900">
+      <div className="max-w-[1200px] mx-auto  bg-[white]  py-8 flex flex-col  w-full ">
+        <footer class="bg-gray-900 dark:bg-gray-900 relative">
           <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
-              <div class="mb-6 md:mb-0">
-                <a href="" class="flex items-center">
+              <div class="mb-6 md:mb-0 ">
+                <a href="" class="flex items-center ">
                   {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="FlowBite Logo" /> */}
-                  <span className="self-center text-2xl whitespace-nowrap dark:text-white font-bold ">
+                  <span className="self-center text-2xl whitespace-nowrap dark:text-white font-bold px-6 py-6   ">
                     BRISA
                   </span>
                 </a>
@@ -80,8 +80,8 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <div class="sm:flex sm:items-center sm:justify-between">
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700  lg:my-8" />
+            <div class="sm:flex sm:items-center sm:justify-between md:pb-6">
               <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
                 © 2023{" "}
                 <a href="" class="hover:underline">
@@ -179,6 +179,10 @@ function Footer() {
               </div>
             </div>
           </div>
+          <div className='w-[20px] h-[20px] bg-white  absolute top-0'></div>
+          <div className='w-[20px] h-[20px] bg-white absolute top-5 left-5 '></div>
+          <div className='w-[20px] h-[20px] bg-white absolute bottom-0 right-0 '></div>
+          <div className='w-[20px] h-[20px] bg-white absolute bottom-5 right-5 '></div>
         </footer>
       </div>
     </div>
