@@ -14,9 +14,9 @@ const Header = () => {
   return (
     <div
       name="skills"
-      className="fixed h-[80px] w-full  bg-[#ffffff] text-black font-normal subpixel-antialiased "
+      className=" h-[80px] w-full  bg-[#ffffff] text-black font-normal subpixel-antialiased "
     >
-      <div className=" max-w-[1200px] mx-auto bg-[#ffffff] flex justify-between w-full h-full items-center">
+      <div className=" max-w-[1200px] mx-auto bg-[#ffffff] flex px-3 justify-between w-full h-full items-center">
         <ul className="hidden md:flex">
           <Link to="home" smooth="true" duration={500}>
             <li>Home</li>
