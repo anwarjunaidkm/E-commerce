@@ -7,7 +7,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'poppins': ['Poppins', 'sans-serif']
+      poppins: ['Poppins', 'sans-serif'],
+      grey:['Grey Qo', 'cursive'],
+      maven:['Maven Pro', 'sans-serif']
     },
     extend: {},
   },
