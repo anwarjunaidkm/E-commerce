@@ -7,8 +7,7 @@ const Banner = () => {
   return (
     <div className=" h-screen w-full  bg-[#ffffff] text-black ">
       <div className="max-w-[1200px] mx-auto flex flex-col w-full h-screen justify-center overflow-y-auto">
-        {/* <div className=""> */}
-        <div class="grid md:grid-cols-2 h-screen ">
+        <div class="grid md:grid-cols-2 h-screen md:overflow-hidden">
           <div class="flex  bg-[#e1ecf4]">
             <div>
               <div className="w-9 h-9 bg-white"></div>
@@ -40,7 +39,6 @@ const Banner = () => {
                 <div class="absolute w-64 h-64 top-40 right-[25%] left-[30%] rounded-full bg-[#f2f6f8] border-2 border-[#cde4ee]"></div>
                 <div class="absolute top-40 right-[21%] left-[20%] w-72 h-72 rounded-full bg-[#cde4ee]"></div>
               </div>
-              {/* <div className="absolute bottom-20 right-16 w-32 h-16 border-2 border-[#cde4ee]"></div> */}
               <div class="flex justify-center items-center">
                 <img src={bgImg} className="absolute  top-14" />
               </div>
@@ -51,7 +49,6 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        {/* </div> */}
       </div>
     </div>
   );

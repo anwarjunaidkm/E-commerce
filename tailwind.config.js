@@ -9,7 +9,8 @@ module.exports = {
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],
       grey:['Grey Qo', 'cursive'],
-      maven:['Maven Pro', 'sans-serif']
+      maven:['Maven Pro', 'sans-serif'],
+      architecture:['Architects Daughter', 'cursive']
     },
     extend: {},
   },
