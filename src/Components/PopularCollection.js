@@ -12,12 +12,13 @@ function PopularCollection() {
           Popular Collection
         </h6>
         <div class="grid md:grid-cols-4 grid-cols-2 px-3 gap-4 items-center">
-
-        <div className="flex flex-col">
+          <div className="flex flex-col">
             <div class="bg-[#f3f3f3] flex justify-around">
               <img src={kettle} className="h-52 w-56" />
             </div>
-            <p className="text-center pt-3 text-lg font-bold">Pot with handle</p>
+            <p className="text-center pt-3 text-lg font-bold">
+              Pot with handle
+            </p>
             <p className="text-center pt-3">$1200</p>
           </div>
 
@@ -25,48 +26,63 @@ function PopularCollection() {
             <div class="bg-[#f3f3f3] flex justify-around">
               <img src={pot} className="h-52 w-40" />
             </div>
-            <p className="text-center pt-3 text-lg font-bold">Pot with handle</p>
+            <p className="text-center pt-3 text-lg font-bold">
+              Pot with handle
+            </p>
             <p className="text-center pt-3">$1200</p>
           </div>
           <div className="flex flex-col">
             <div class="bg-[#f3f3f3] flex justify-around">
               <img src={table} className="h-52 w-40" />
             </div>
-            <p className="text-center pt-3 text-lg font-bold">Pot with handle</p>
+            <p className="text-center pt-3 text-lg font-bold">
+              Pot with handle
+            </p>
             <p className="text-center pt-3">$1200</p>
           </div>
           <div className="flex flex-col">
             <div class="bg-[#f3f3f3] flex justify-around">
               <img src={clock} className="h-52 w-52" />
             </div>
-            <p className="text-center pt-3 text-lg font-bold">Pot with handle</p>
+            <p className="text-center pt-3 text-lg font-bold">
+              Pot with handle
+            </p>
             <p className="text-center pt-3">$1200</p>
           </div>
           <div className="flex flex-col">
             <div class="bg-[#f3f3f3] flex justify-around">
               <img src={table} className="h-52 w-40" />
             </div>
-            <p className="text-center pt-3 text-lg font-bold">Pot with handle</p>
+            <p className="text-center pt-3 text-lg font-bold">
+              Pot with handle
+            </p>
             <p className="text-center pt-3">$1200</p>
           </div>
           <div className="flex flex-col">
             <div class="bg-[#f3f3f3] flex justify-around">
               <img src={pot} className="h-52 w-40" />
             </div>
-            <p className="text-center pt-3 text-lg font-bold">Pot with handle</p>
+            <p className="text-center pt-3 text-lg font-bold">
+              Pot with handle
+            </p>
             <p className="text-center pt-3">$1200</p>
           </div>
           <div className="flex flex-col">
             <div class="bg-[#f3f3f3] flex justify-around">
               <img src={pot} className="h-52 w-40" />
             </div>
-            <p className="text-center pt-3 text-lg font-bold">Pot with handle</p>
-            <p className="text-center pt-3">$1200</p>          </div>
+            <p className="text-center pt-3 text-lg font-bold">
+              Pot with handle
+            </p>
+            <p className="text-center pt-3">$1200</p>{" "}
+          </div>
           <div className="flex flex-col">
             <div class="bg-[#f3f3f3] flex justify-around">
               <img src={pot} className="h-52 w-40" />
             </div>
-            <p className="text-center pt-3 text-lg font-bold">Pot with handle</p>
+            <p className="text-center pt-3 text-lg font-bold">
+              Pot with handle
+            </p>
             <p className="text-center pt-3">$1200</p>
           </div>
         </div>
