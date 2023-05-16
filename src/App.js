@@ -1,23 +1,18 @@
-import './App.css';
-import Banner from './Components/Banner';
-import BannerContent from './Components/BannerContent';
-import Footer from './Components/Footer';
-import Header from './Components/Header';
-import Instagram from './Components/Instagram';
-import PopularCollection from './Components/PopularCollection';
-import Quotes from './Components/Quotes';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+
+import ProductSingle from "./Components/ProductSingle";
+import SinglePage from "./Components/SinglePage";
 
 function App() {
   return (
     <>
-    <Header />
-    <Banner />
-    <BannerContent/>
-    <PopularCollection/>
-    <Quotes/>
-    <Instagram/>
-    <Footer/>
-    
+      <BrowserRouter>
+        <Routes>
+          <Route path="/product" element={<ProductSingle />} />
+          <Route path="/" element={<SinglePage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

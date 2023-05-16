@@ -3,6 +3,7 @@ import kettle from "../asset/kettle3-removebg-preview.png";
 import pot from "../asset/pot-removebg-preview.png";
 import table from "../asset/tea-table2-removebg-preview.png";
 import clock from "../asset/clock2-removebg-preview.png";
+import { Link } from "react-router-dom";
 
 function PopularCollection() {
   return (
@@ -50,9 +51,11 @@ function PopularCollection() {
             <p className="text-center pt-3">$1200</p>
           </div>
           <div className="flex flex-col">
-            <div class="bg-[#f3f3f3] flex justify-around">
-              <img src={table} className="h-52 w-40" />
-            </div>
+            <Link to={"/product"}>
+              <div class="bg-[#f3f3f3] flex justify-around">
+                <img src={table} className="h-52 w-40" />
+              </div>
+            </Link>
             <p className="text-center pt-3 text-lg font-bold">
               Pot with handle
             </p>

@@ -1,6 +1,7 @@
 import React from "react";
 import pot from "../asset/pot-removebg-preview.png";
 import table from "../asset/tea-table2-removebg-preview.png";
+import chair from "../asset/chair.png"
 
 function Instagram() {
   return (
@@ -10,7 +11,7 @@ function Instagram() {
           <div className="bg-[#f3f3f3] flex justify-around relative">
             <img src={table} className="h-52 w-40 " />
             <img
-              src={pot}
+              src={chair}
               className="bg-[#f3f3f3] h-52 w-40 absolute top-36 left-28"
             />
           </div>
@@ -41,7 +42,7 @@ function Instagram() {
         </div>
 
         <div className="sm:hidden flex justify-evenly mb-6 ml-5">
-          <img src={pot} className="h-52 w-40 bg-[#f3f3f3]" />
+          <img src={chair} className="h-52 w-40 bg-[#f3f3f3]" />
           <img src={pot} className="h-52 w-40 bg-[#f3f3f3]" />
         </div>
         <div className="sm:hidden flex justify-center mb-6">

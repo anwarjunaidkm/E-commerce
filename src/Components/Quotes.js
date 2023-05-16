@@ -14,19 +14,14 @@ function Quotes() {
             <div className="flex justify-center items-center relative">
               <div className="w-96">
                 <img src={women} className="" />
-                {/* <div className="hidden md:block top-20 left-[80%] float-right">
-                <div className="w-9 h-9 bg-[#faf2f0]"></div>
-                <div className="w-16 h-16 bg-[#faf2f0] ml-9"></div>
-              </div> */}
               </div>
             </div>
-            
           </div>
           <div className="flex flex-col justify-center relative">
-          <div className="hidden md:block absolute top-20 left-[80%] float-right">
-                <div className="w-9 h-9 bg-[#faf2f0]"></div>
-                <div className="w-16 h-16 bg-[#faf2f0] ml-9"></div>
-              </div>
+            <div className="hidden md:block absolute top-20 left-[80%] float-right">
+              <div className="w-9 h-9 bg-[#faf2f0]"></div>
+              <div className="w-16 h-16 bg-[#faf2f0] ml-9"></div>
+            </div>
             <div className="flex justify-between w-[70%]">
               <h3 className="text-2xl font-architecture"> True Story</h3>
               <h3 className="text-sm font-maven">01/03</h3>
