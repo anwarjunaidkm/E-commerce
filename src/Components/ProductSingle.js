@@ -3,6 +3,8 @@ import image from "../asset/tableWithChair.png";
 import { BsArrowRight } from "react-icons/bs";
 import Footer from "./Footer";
 import Header from "./Header";
+import SimilarProduct from "./SimilarProduct";
+import RecentViewed from "./RecentViewed";
 
 function ProductSingle() {
   return (
@@ -20,7 +22,7 @@ function ProductSingle() {
             <img src={image} className="" />
           </div>
           <div className="flex flex-col justify-around">
-            <div className="flex flex-col justify-center sm:ml-24 ml-10">
+            <div className="flex flex-col justify-center sm:ml-24 ml-10 px-5 py-5">
               <h5 className="font-maven text-2xl font-bold">Details</h5>
               <p className="mt-5 w-[90%]">
                 Providing style conscious customers with innovative shoes to
@@ -41,7 +43,7 @@ function ProductSingle() {
             <div class="border border-solid border-gray-150"></div>
 
             <div className="flex flex-col justify-center sm:ml-24 mx-2">
-              <div className="flex flex-row justify-between sm:ml-0 ml-10 px-5">
+              <div className="flex flex-row justify-between sm:ml-0 ml-10 px-5 py-5">
                 <div>
                   <h5 className="font-maven text-2xl font-bold">Colours</h5>
                   <div className="flex mt-5">
@@ -70,7 +72,10 @@ function ProductSingle() {
             </div>
           </div>
         </div>
+        
       </div>
+      <SimilarProduct/>
+      <RecentViewed/>
       <Footer />
     </div>
   );
