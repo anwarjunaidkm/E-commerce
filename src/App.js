@@ -1,18 +1,18 @@
-import './App.css';
-import Banner from './Components/Banner';
-import BannerContent from './Components/BannerContent';
-import FeaturedCollection from './Components/FeaturedCollection';
-import Footer from './Components/Footer';
-import Header from './Components/Header';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+
+import ProductSingle from "./Components/ProductSingle";
+import SinglePage from "./Components/SinglePage";
 
 function App() {
   return (
     <>
-    <Header />
-    <Banner />
-    <BannerContent/>
-    <FeaturedCollection />
-    <Footer/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/product" element={<ProductSingle />} />
+          <Route path="/" element={<SinglePage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
