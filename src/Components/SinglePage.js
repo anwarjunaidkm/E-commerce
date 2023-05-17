@@ -6,6 +6,7 @@ import BannerContent from './BannerContent'
 import PopularCollection from './PopularCollection'
 import Quotes from './Quotes'
 import Footer from './Footer'
+import FeaturedCollection from './FeaturedCollection'
 
 
 function SinglePage() {
@@ -14,6 +15,7 @@ function SinglePage() {
       <Header/>
       <Banner />
       <BannerContent />
+      <FeaturedCollection />
       <PopularCollection />
       <Quotes />
       <Instagram/>
