@@ -6,7 +6,7 @@ import bgImg from "../asset/bg3-removebg-preview.png";
 const Banner = () => {
   return (
     <div className=" h-screen w-full  bg-[#ffffff] text-black ">
-      <div className="max-w-[1200px] mx-auto flex flex-col w-full h-screen justify-center overflow-y-auto">
+      <div className="max-w-[1200px] mx-auto flex flex-col w-full h-[80%] justify-center overflow-y-auto">
         <div class="grid md:grid-cols-2 h-screen md:overflow-hidden">
           <div class="flex  bg-[#e1ecf4]">
             <div>
