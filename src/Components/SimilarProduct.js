@@ -6,8 +6,8 @@ import clock from "../asset/clock2-removebg-preview.png";
 
 function SimilarProduct() {
   return (
-    <div className=" h-screen md:h-[50%] w-full  bg-[#ffffff] text-black ">
-      <div className="max-w-[1200px] mx-auto flex flex-col h-screen overflow-y-auto">
+    <div className=" h-[80%] md:h-[50%] w-full  bg-[#ffffff] text-black ">
+      <div className="max-w-[1200px] mx-auto flex flex-col h-[screen] overflow-y-auto">
         <div className="flex flex-row items-center justify-center my-10">
           <div class="border-b-2 border-solid border-gray-150 w-[40%]"></div>
           <h3 className="px-3 font-poppins">Similar Products</h3>

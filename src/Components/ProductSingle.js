@@ -5,6 +5,8 @@ import Footer from "./Footer";
 import Header from "./Header";
 import SimilarProduct from "./SimilarProduct";
 import RecentViewed from "./RecentViewed";
+import Iconbar from "./Iconbar";
+
 
 function ProductSingle() {
   return (
@@ -72,13 +74,16 @@ function ProductSingle() {
             </div>
           </div>
         </div>
-        
       </div>
-      <SimilarProduct/>
-      <RecentViewed/>
+      <SimilarProduct />
+      <RecentViewed />
+      <Iconbar/>
       <Footer />
     </div>
   );
 }
 
 export default ProductSingle;
+
+
+
