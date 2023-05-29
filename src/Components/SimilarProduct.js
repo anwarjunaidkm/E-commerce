@@ -6,14 +6,14 @@ import clock from "../asset/clock2-removebg-preview.png";
 
 function SimilarProduct() {
   return (
-    <div className=" h-[80%] md:h-[50%] w-full  bg-[#ffffff] text-black ">
-      <div className="max-w-[1200px] mx-auto flex flex-col h-[screen] overflow-y-auto">
+    <div className=" h-[80%] md:h-[70%] w-full  bg-[#ffffff] text-black ">
+      <div className="max-w-[1200px] mx-auto flex flex-col h-[90%]">
         <div className="flex flex-row items-center justify-center my-10">
           <div class="border-b-2 border-solid border-gray-150 w-[40%]"></div>
           <h3 className="px-3 font-poppins">Similar Products</h3>
           <div class="border-b-2 border-solid border-gray-150 w-[40%]"></div>
         </div>
-        <div class="grid md:grid-cols-4 grid-cols-2 px-3 gap-4 items-center">
+        <div class="grid md:grid-cols-4 grid-cols-2 px-3 gap-4 items-center overflow-y-auto">
           <div className="flex flex-col">
             <div class="bg-[#f3f3f3] flex justify-around">
               <img src={kettle} className="h-52 w-56" />

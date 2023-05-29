@@ -5,7 +5,7 @@ import chair from "../asset/chair.png"
 
 function Instagram() {
   return (
-    <div className=" h-screen w-full  bg-[#ffffff] text-black ">
+    <div className=" h-screen w-full bg-[#ffffff] text-black ">
       <div className="max-w-[1200px] mx-auto flex flex-col w-full h-screen justify-center ">
         <div className="hidden sm:flex justify-evenly">
           <div className="bg-[#f3f3f3] flex justify-around relative">
